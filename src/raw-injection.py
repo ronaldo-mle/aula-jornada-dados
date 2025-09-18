@@ -27,11 +27,3 @@ full_path = f"{volume_path}{filename}"
 with open(full_path, "w") as file:
     json.dump(data_results, file)
 
-
-# COMMAND ----------
-
-data_results
-
-# COMMAND ----------
-
-
